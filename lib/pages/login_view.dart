@@ -186,7 +186,7 @@ class LoginView extends StatelessWidget {
           ),
           const SizedBox(height: 10),
           TextButton(
-            onPressed: () => {},
+            onPressed: () => Get.toNamed(Routes.register),
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),

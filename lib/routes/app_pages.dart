@@ -2,6 +2,7 @@
 
 import 'package:fittness_app/pages/about_view.dart';
 import 'package:fittness_app/pages/login_view.dart';
+import 'package:fittness_app/pages/register_view.dart';
 import 'package:fittness_app/pages/welcome_view.dart';
 import 'package:get/get.dart';
 
@@ -28,6 +29,10 @@ class AppPages {
     GetPage(
       name: Routes.forgetPassword,
       page: () => const ForgetPasswordView(),
+    ),
+    GetPage(
+      name: Routes.register,
+      page: () => const RegisterView(),
     ),
   ];
 }
