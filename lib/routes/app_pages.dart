@@ -1,13 +1,14 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:fittness_app/pages/about_view.dart';
+import 'package:fittness_app/pages/login_view.dart';
 import 'package:fittness_app/pages/welcome_view.dart';
 import 'package:get/get.dart';
 
 part 'app_routes.dart';
 
 class AppPages {
-  static const initial = Routes.about;
+  static const initial = Routes.welcome;
 
   static final routes = [
     GetPage(
@@ -18,9 +19,9 @@ class AppPages {
       name: Routes.about,
       page: () => const AboutView(),
     ),
-    // GetPage(
-    //   name: Routes.LOGIN,
-    //   page: () => const LoginView(),
-    // ),
+    GetPage(
+      name: Routes.login,
+      page: () => const LoginView(),
+    ),
   ];
 }
