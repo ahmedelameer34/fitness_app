@@ -5,6 +5,8 @@ import 'package:fittness_app/pages/login_view.dart';
 import 'package:fittness_app/pages/welcome_view.dart';
 import 'package:get/get.dart';
 
+import '../pages/forget_password_view.dart';
+
 part 'app_routes.dart';
 
 class AppPages {
@@ -22,6 +24,10 @@ class AppPages {
     GetPage(
       name: Routes.login,
       page: () => const LoginView(),
+    ),
+    GetPage(
+      name: Routes.forgetPassword,
+      page: () => const ForgetPasswordView(),
     ),
   ];
 }
