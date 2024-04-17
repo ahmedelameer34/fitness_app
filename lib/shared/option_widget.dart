@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:fitness_app/shared/styles/colors.dart';
+import 'package:fittness_app/shared/styles/colors.dart';
 
 class OptionWidget extends StatelessWidget {
   final String state, detail;

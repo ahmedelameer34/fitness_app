@@ -1,9 +1,9 @@
 // ignore_for_file: constant_identifier_names
 
-import 'package:fitness_app/pages/about_view.dart';
-import 'package:fitness_app/pages/login_view.dart';
-import 'package:fitness_app/pages/register_view.dart';
-import 'package:fitness_app/pages/welcome_view.dart';
+import 'package:fittness_app/pages/about_view.dart';
+import 'package:fittness_app/pages/login_view.dart';
+import 'package:fittness_app/pages/register_view.dart';
+import 'package:fittness_app/pages/welcome_view.dart';
 import 'package:get/get.dart';
 
 import '../pages/forget_password_view.dart';

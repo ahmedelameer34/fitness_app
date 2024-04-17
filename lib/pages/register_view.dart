@@ -1,5 +1,5 @@
-import 'package:fitness_app/routes/app_pages.dart';
-import 'package:fitness_app/shared/styles/colors.dart';
+import 'package:fittness_app/routes/app_pages.dart';
+import 'package:fittness_app/shared/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
